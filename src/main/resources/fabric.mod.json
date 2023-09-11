@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "allow-editing-player-data",
+  "version": "${version}",
+  "name": "Allow Editing Player Data",
+  "description": "Removes the check in the /data command which prevents editing player data.",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/allow-editing-player-data"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/allow-editing-player-data/icon.png",
+  "environment": "*",
+  "mixins": [
+    "allow-editing-player-data.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
